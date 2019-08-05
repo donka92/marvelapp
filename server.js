@@ -8,7 +8,7 @@ const app = express();
 //app.use(express.static(__dirname + '/dist'));
 //app.use(express.static('www'));
 
-app.use(express.static('www'));
+app.use('/static', express.static(__dirname + '/public'));
 
 //app.get('/*', function(req,res) {
     
