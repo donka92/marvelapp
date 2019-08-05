@@ -1,7 +1,7 @@
 //Install express server
 const express = require('express');
 const path = require('path');
-var port = process.env.PORT || 8200;
+var port = process.env.PORT || 8080;
 const app = express();
 
 // Serve only the static files form the dist directory
